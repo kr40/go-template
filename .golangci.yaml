@@ -16,7 +16,7 @@ linters:
     - revive # Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint
     - unconvert # Remove unnecessary type conversions
     - unparam # Reports unused function parameters
-    - whitespace # Whitespace is a linter that checks for unnecessary newlines at the start and end of functions, if, for, etc
+    - wsl # Add or remove empty lines
     #Optional
     - bodyclose # Checks whether HTTP response body is closed successfully
     - dupl # Tool for code clone detection
@@ -27,7 +27,6 @@ linters:
     - nestif # Reports deeply nested if statements
     - nilerr # Finds the code that returns nil even if it checks that the error is not nil
     - nilnil # Checks that there is no simultaneous return of nil error and an invalid value
-    - nlreturn # Nlreturn checks for a new line before return and branch statements to increase code clarity
     - rowserrcheck # Checks whether Rows.Err of rows is checked successfully
     - sqlclosecheck # Checks that sql.Rows, sql.Stmt, sqlx.NamedStmt, pgx.Query are closed
     - tagalign # Check that struct tags are well aligned
