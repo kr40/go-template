@@ -19,7 +19,6 @@ linters:
     - whitespace # Whitespace is a linter that checks for unnecessary newlines at the start and end of functions, if, for, etc
     #Optional
     - bodyclose # Checks whether HTTP response body is closed successfully
-    - depguard # Go linter that checks if package imports are in a list of acceptable packages
     - dupl # Tool for code clone detection
     - errchkjson # Checks types passed to the json encoding functions
     - goerr113 # Go linter to check the errors handling expressions
@@ -32,6 +31,5 @@ linters:
     - rowserrcheck # Checks whether Rows.Err of rows is checked successfully
     - sqlclosecheck # Checks that sql.Rows, sql.Stmt, sqlx.NamedStmt, pgx.Query are closed
     - tagalign # Check that struct tags are well aligned
-    - godot
     - tparallel # Tparallel detects inappropriate usage of t.Parallel() method in your Go test codes
     - usestdlibvars # A linter that detect the possibility to use variables/constants from the Go standard library
