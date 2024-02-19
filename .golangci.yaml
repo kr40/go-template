@@ -1,0 +1,37 @@
+linters:
+  enable:
+    #Default
+    - errcheck # Detect unchecked errors
+    - gosimple # Suggest code simplifications
+    - govet # Reports suspicious constructs
+    - ineffassign # Detects unused variable assignments
+    - staticcheck # Go vet on steroid
+    - unused # Detect unused constants, variables, functions and types
+    #Suggested
+    - goconst # Finds repeated strings that could be replaced by a constant
+    - gocyclo # Computes and checks the cyclomatic complexity of functions
+    - gofumpt # Checks whether code was gofumpt-ed
+    - goimports # Check import statements are formatted according to the 'goimport' command. Reformat imports in autofix mode
+    - misspell # Finds commonly misspelled English words.
+    - revive # Fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint
+    - unconvert # Remove unnecessary type conversions
+    - unparam # Reports unused function parameters
+    - whitespace # Whitespace is a linter that checks for unnecessary newlines at the start and end of functions, if, for, etc
+    #Optional
+    - bodyclose # Checks whether HTTP response body is closed successfully
+    - depguard # Go linter that checks if package imports are in a list of acceptable packages
+    - dupl # Tool for code clone detection
+    - errchkjson # Checks types passed to the json encoding functions
+    - goerr113 # Go linter to check the errors handling expressions
+    - gomnd # An analyzer to detect magic numbers
+    - nakedret # Checks that functions with naked returns are not longer than a maximum size
+    - nestif # Reports deeply nested if statements
+    - nilerr # Finds the code that returns nil even if it checks that the error is not nil
+    - nilnil # Checks that there is no simultaneous return of nil error and an invalid value
+    - nlreturn # Nlreturn checks for a new line before return and branch statements to increase code clarity
+    - rowserrcheck # Checks whether Rows.Err of rows is checked successfully
+    - sqlclosecheck # Checks that sql.Rows, sql.Stmt, sqlx.NamedStmt, pgx.Query are closed
+    - tagalign # Check that struct tags are well aligned
+    - godot
+    - tparallel # Tparallel detects inappropriate usage of t.Parallel() method in your Go test codes
+    - usestdlibvars # A linter that detect the possibility to use variables/constants from the Go standard library
