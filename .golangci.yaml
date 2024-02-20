@@ -32,3 +32,8 @@ linters:
     - tagalign # Check that struct tags are well aligned
     - tparallel # Tparallel detects inappropriate usage of t.Parallel() method in your Go test codes
     - usestdlibvars # A linter that detect the possibility to use variables/constants from the Go standard library
+linters-settings:
+  revive:
+    rules:
+      - name: var-declaration
+        disabled: true
